@@ -1,14 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>La Pizza</title>
+    <link rel="stylesheet" href="../public/styles/reset.css" />
     <link rel="stylesheet" href="../public/styles/global.css" />
+    <link rel="stylesheet" href="../public/styles/header.css" />
+    <link rel="stylesheet" href="../public/styles/main.css" />
+    <link rel="stylesheet" href="../public/styles/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- faz o naveg. achar a fonte mais rapido-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <!-- apenas algumas letras coloridas-->
+      <h1 class="h-logo logo">
+        La P<span class="yellow">i</span><span class="red">z</span
+        ><span class="green">z</span>a
+      </h1>
+    </header>
+
+    <main>
+      <section id="produtos">
+        <img
+          src="../public/img/plant.png"
+          alt="Planta"
+          class="plant single-image-background"
+        />
+        <img
+          src="../public/img/fish.png"
+          alt="Peixe"
+          class="fish single-image-background"
+        />
+        <img
+          src="../public/img/mushroom.png"
+          alt="Cogumelo"
+          class="mushroom single-image-background"
+        />
+
+        <h2 class="produtos-title">Mais vendidas</h2>
+        <ul class="produtos-list">
+          <li class="produtos-item">
+            <img
+              src="../public/img/la-cuma.png"
+              alt="La Cuma"
+              class="produtos-item-image"
+            />
+            <img
+              src="../public/img/heart.svg"
+              alt="Coração"
+              class="produtos-item-heart"
+            />
+            <h3 class="produtos-item-name">La Cuma</h3>
+            <p class="produtos-item-description">
+              Sabor intenso e levemente picante, com nosso molho especial de
+              tomates.
+            </p>
+            <span class="produtos-item-price">R$ 40</span>
+            <a class="button produtos-item-button">Comprar agora</a>
+          </li>
+          <li class="produtos-item">
+            <img
+              src="../public/img/la-menta.png"
+              alt="La Menta"
+              class="produtos-item-image"
+            />
+            <img
+              src="../public/img/heart.svg"
+              alt="Coração"
+              class="produtos-item-heart"
+            />
+            <h3 class="produtos-item-name">La Menta</h3>
+            <p class="produtos-item-description">
+              Uma combinação surpreendente e refrescante de queijo suave com
+              notas de hortelã.
+            </p>
+            <span class="produtos-item-price">R$ 32</span>
+            <a class="button produtos-item-button">Comprar agora</a>
+          </li>
+          <li class="produtos-item">
+            <img
+              src="../public/img/la-bana.png"
+              alt="La Bana"
+              class="produtos-item-image"
+            />
+            <img
+              src="../public/img/heart.svg"
+              alt="Coração"
+              class="produtos-item-heart"
+            />
+            <h3 class="produtos-item-name">La Bana</h3>
+            <p class="produtos-item-description">
+              A sobremesa perfeita: bananas fatiadas com canela e queijo
+              derretido.
+            </p>
+            <span class="produtos-item-price">R$ 55</span>
+            <a class="button produtos-item-button">Comprar agora</a>
+          </li>
+          <li class="produtos-item">
+            <img
+              src="../public/img/la-toca.png"
+              alt="La Toca"
+              class="produtos-item-image"
+            />
+            <img
+              src="../public/img/heart.svg"
+              alt="Coração"
+              class="produtos-item-heart"
+            />
+            <h3 class="produtos-item-name">La Toca</h3>
+            <p class="produtos-item-description">
+              Sabores rústicos da Toscana: linguiça artesanal apimentada e
+              alecrim fresco.
+            </p>
+            <span class="produtos-item-price">R$ 40</span>
+            <a class="button produtos-item-button">Comprar agora</a>
+          </li>
+        </ul>
+
+        <img
+          src="../public/img/leaf.png"
+          alt="Folha"
+          class="leaf single-image-background"
+        />
+        <img
+          src="../public/img/chili.png"
+          alt="Pimenta"
+          class="chili single-image-background"
+        />
+        <img
+          src="../public/img/tomato.png"
+          alt="Tomate"
+          class="tomato single-image-background"
+        />
+      </section>
+
+      <section id="about">
+        <div class="about-image-container">
+          <div class="pizza-container single-image-background">
+            <img src="../public/img/pizza.png" alt="Pizza" class="pizza" />
+          </div>
+          <img
+            src="../public/img/restaurant.png"
+            alt="Restaurante italiano"
+            class="about-image"
+          />
+        </div>
+        <div class="about-textgroup">
+          <h2 class="about-title">
+            Sobre a La P<span class="yellow">i</span><span class="red">z</span
+            ><span class="green">z</span>a
+          </h2>
+          <p class="about-description">
+            Bem-vindo ao "La Pizza", o seu refúgio acolhedor para uma
+            experiência de pizzaria autêntica. Em nosso pequeno oásis italiano,
+            cada pedaço de pizza é uma obra-prima artesanal. Sinta-se em casa
+            enquanto o aroma sedutor de massa fresca assa no forno, criando as
+            pizzas mais deliciosas da cidade
+          </p>
+          <a href="#" class="button about-button">Ler mais</a>
+        </div>
+        <img
+          src="../public/img/spatula.png"
+          alt="Espátula com uma Pizza"
+          class="spatula single-image-background"
+        />
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Developed by:
+        <a href="https://github.com/rafafrd"
+          >R<span class="yellow">af</span><span class="red">a</span
+          ><span class="green">e</span>l</a
+        >.
+      </p>
+    </footer>
   </body>
 </html>
