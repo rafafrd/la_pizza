@@ -43,6 +43,7 @@
   position: absolute;
   top: 0;
   transform: translate(0, -50%);
+  animation: spin 70s linear infinite; /** add animação*/
 }
 
 .produtos-item-heart {
@@ -274,5 +275,15 @@
 
   .about-image-container {
     position: relative;
+  }
+}
+
+/* add animação */
+@keyframes spin {
+  from {
+    transform: translate(0, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(0, -50%) rotate(360deg);
   }
 }
